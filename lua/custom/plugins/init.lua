@@ -82,4 +82,16 @@ return {
     event = 'VeryLazy',
     opts = {},
   },
+  {
+    'nvim-pack/nvim-spectre',
+    keys = {
+      {
+        '<leader>rp',
+        function()
+          require('spectre').open_file_search { select_word = true }
+        end,
+        desc = '[R]e[p]lace in multiple files',
+      },
+    },
+  },
 }
