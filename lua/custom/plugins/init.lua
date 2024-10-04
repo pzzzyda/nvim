@@ -2,8 +2,4 @@
 --  I promise not to create any merge conflicts in this directory :)
 --
 -- See the kickstart.nvim README for more information
-return {
-  require 'custom.plugins.colorscheme',
-  require 'custom.plugins.ui',
-  require 'custom.plugins.editor',
-}
+return {}
